@@ -1,0 +1,5 @@
+@media (min-width: 768px){
+    .fixed .sidebar .sidebar-body {
+        height: calc(100vh - 150px);
+    }
+}

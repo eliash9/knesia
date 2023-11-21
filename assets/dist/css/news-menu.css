@@ -1,0 +1,24 @@
+img{ float:left; margin:3px; cursor:pointer; border-radius:5px;}
+
+.msearch-head{
+    background:#6782B1;padding: 10px; color: #fff; text-align: center;
+}
+.main-footer{
+    display: none;
+}
+
+.btn-s{
+    margin-top: 25px;
+}
+
+.msv{
+    cursor: move;  border: 3px double #EAEAEA; padding: 10px; background-color:#ddd; font-size: 20px;
+}
+.icheckbox_minimal {
+    background-position: 0 0;
+    border: 2px solid #22a436;
+}
+.mbtn{
+    text-align: right;
+}
+

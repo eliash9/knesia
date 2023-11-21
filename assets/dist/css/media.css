@@ -1,0 +1,5 @@
+    .message{background:#F00;}
+    .x_rectangle{height:70px; width:110px; background:#991D57; margin:0 auto; margin:15px 0; padding:3px; cursor:pointer; border-radius:3px;}
+    .y_rectangle{height:100px; width:80px; background:#999; margin:10 auto; padding:3px; cursor:pointer; border-radius:3px;}
+    .score{height:80px; width:80px; background:#999; margin:0 auto; margin:10px; padding:3px; cursor:pointer; border-radius:3px;}
+    .x_x,.x_y,.s_x,.s_y,.y_y,.y_x{color:#FFF; font-size:14px;}
