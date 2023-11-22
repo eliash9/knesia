@@ -60,7 +60,8 @@
         <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>movi/highslide.css" />
         <!-- sharethis -->
         <script type="text/javascript" src="<?php echo base_url()?>assets/dist/js/buttons.js"></script>
-        
+        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=655d67e92a4c890019cbc909&product=inline-share-buttons&source=platform" async="async"></script>
+
         <!-- analytics code -->
         <?php if(@$meta->google_analytics!=NULL){ ?>
             <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo html_escape(@$meta->google_analytics)?>"></script>

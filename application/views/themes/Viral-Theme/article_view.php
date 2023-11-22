@@ -35,15 +35,17 @@
                 <div class="">
                     <!-- Shear button -->
                     <div class="shareBtm margin-top15" >
+                    
                         <div class="shareButton">
-                            <div class="bss" >
+                        <div class="sharethis-inline-share-buttons"></div>
+                             <!--div class="bss" >
                                 <span class='st_sharethis_hcount' displayText='ShareThis'></span>
                                 <span class='st_facebook_hcount' displayText='Facebook'></span>
                                 <span class='st_twitter_hcount' displayText='Tweet'></span>
                                 <span class='st_linkedin_hcount' displayText='LinkedIn'></span>
                                 <span class='st_pinterest_hcount' displayText='Pinterest'></span>
                                 <a href="<?php echo html_escape($bu) . 'Print_article/print_page/' . $news_id; ?>" class="icon_n_d"  target="_blank" title="Click to Print"><img src="<?php echo html_escape($bu); ?>assets/icon/print.jpg" height="23" width="25" alt="No icon"/></a>
-                            </div>
+                            </div-->
                         </div>
                     </div>
             
