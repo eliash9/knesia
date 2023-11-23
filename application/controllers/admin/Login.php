@@ -60,11 +60,11 @@ class Login extends CI_Controller {
             
                 if($data['user_type'] == 4){
 
-                    redirect("admin/news_post");
+                    redirect("admin/dashboard");
 
                 }  else if ($data['user_type'] == 3) {
 
-                    redirect("admin/news_post");
+                    redirect("admin/dashboard");
 
                 } else if($data['user_type'] == 2){
 

@@ -21,7 +21,7 @@
 
             <nav class="sidebar sidebar-bunker">
                 <div class="sidebar-header">
-                    <a href="<?php echo base_url('admin/news_post')?>" class="logo">
+                    <a href="<?php echo base_url('admin/dashboard')?>" class="logo">
                         <img src="<?php echo base_url()?><?php echo $settings->app_logo;?>" alt="">
                     </a>
                 </div><!--/.sidebar header-->
