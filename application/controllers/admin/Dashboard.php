@@ -61,8 +61,12 @@ class Dashboard extends CI_Controller {
         $data['cat'] = $this->db->select("*")->from('categories')->order_by('position','ASC')->get()->result();
         $data['reporter'] = $this->db->select('id,name')->where('user_type!=',2)->from('user_info')->get()->result();
 
-       
-		$this->load->view('admin/includes/__header', $data);
+       $data['totalpost']=$total_rows;
+       $data['totalcomment'] =$this->db->select('*')->from('comments_info')->get()->num_rows();
+	   $data['subscribers'] =$this->db->select('*')->from('subscription')->get()->num_rows();
+       $data['totalusers'] =$this->db->select('*')->from('user_info')->get()->num_rows();
+	
+       $this->load->view('admin/includes/__header', $data);
         $this->load->view('admin/dashboard');
         $this->load->view('admin/includes/__footer');
     }
